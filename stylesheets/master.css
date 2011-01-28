@@ -1,0 +1,161 @@
+/*************************************
+ * Section 1: App styles
+ * Here you find the base app styles, which we recommend you avoid tweaking.
+ **************************************/
+ 
+._player {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+}
+
+._text-field { /* this is how text values are styled */
+    font-family: Arial;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+._viewport {
+	background-color: #000000;
+    display: block;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+
+._coverart {
+    background-color: transparent;
+    background-repeat: none;
+    background-position: 50% 50%;
+	background-size: contain;
+    display: block;
+    opacity: 1.0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -90;
+}
+
+._coverart._hasPlayed {
+    display: none;
+}
+
+._player .hide {
+    display: none;
+}
+
+/*************************************
+ * Section 2: Generic UI types
+ * Here you find basic styles for Buttons, Sliders, SliderHeads, Menus and so on
+ **************************************/
+ 
+._controls {
+    background-color: #323232;
+    bottom: 0px;
+    height: 26px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+}
+ 
+._box {
+    background-color: #323232;
+    height: 30px;
+    width: auto;
+}
+
+._button {
+    height: 28px;
+    width: 34px;
+}
+
+._button ._icon {
+    background-position: center;
+    float: left;
+    opacity: 0.7;
+}
+
+._button:hover ._icon {
+    opacity: 1.0;
+}
+
+._slider {
+    
+}
+
+._slider._horizontal {
+    height: 10px;
+    width: 100px;
+}
+ 
+._slider._vertical ._gutter {
+    height: 100px;
+    width: 10px;
+}
+
+._slider ._gutter {
+    background-color: #FFFFFF;
+}
+
+._slider ._slider-head {
+    background-color: #FFFFFF;
+    border: solid 1px #000000;
+    position: relative;
+}
+
+._slider._horizontal ._slider-head {
+    border: none;
+    height: 2px;
+    left: 2px;
+    top: 0px;
+    width: 2px;
+}
+
+._slider._vertical ._slider-head {
+    height: 3px;
+    left: -3px;
+    width: 14px;
+}
+
+._slider ._min-fill {
+    background-color: #D70005;
+    height: 3px;
+}
+
+._slider._horizontal ._fill-container > * {
+  height: 100%;
+}
+
+._slider._vertical ._fill-container > * {
+  width: 100%;
+}
+
+._slider._horizontal ._gutter {
+  height: 10px;
+  width: 100%;
+}
+
+._slider._vertical ._gutter {
+  height: 100%;
+  width: 10px;
+}
+
+._slider ._fill-container, ._slider ._head-container, ._slider ._marker-container {
+    /*display: none;
+  */  
+  position: absolute; 
+  
+  width: 100%;
+}
+/*._button ._slider {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background: green;
+}*/

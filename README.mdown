@@ -1,0 +1,14 @@
+Videojuicer Player Styles
+=========================
+
+	`index.json` # declares a JSON object with an ordered array of the stylesheets that should be included by default in the players bootstrap
+
+	`assets/` # contains the un-encoded assets used in the stylesheets
+	
+	`stylesheets/` # contains the player stylesheets that make up the default user interface
+	
+	`stylesheets/master.css` # defines the rules for adding styles to the default user interface components
+	
+	`stylesheets/internal_ui.css` # defines the style rules for applying the Videojuicer user interface design and layout
+	
+	`stylesheets/assets.css` # defines a collection of image assets encoded as Base64 strings that are used in the user interface (taken from `assets/`)
