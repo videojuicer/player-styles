@@ -275,9 +275,8 @@
     width: 150px; /* menus currently require a width. this should be fixed. */
 }
  
-.show {
-    display: block;
-}
+.show { display: block; }
+.hide { display: none; }
  
 ._controls ._button ._menu ._menu-contents {
     background-color: #393939;
