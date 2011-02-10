@@ -246,8 +246,8 @@
     border: none;
     display: block;
     position: absolute;
-    bottom: 0px;
-    height: 100px;
+    bottom: 8px;
+    height: 106px;
     width: 5px;
     margin-bottom: 0px;
     margin-left: 1px;
@@ -260,6 +260,7 @@
     height: 2px;
     top: 0px;
     margin-left: 2px;
+    margin-bottom: 0px;
     position: absolute;
     width: 12px;
     z-index: 1000;
