@@ -50,20 +50,18 @@
  
 /* Specific styles: Wait indicator */
 ._playback-wait-indicator {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100px;
   height: 33px;
-  margin-left: -52px;
-  margin-top: -19px;
   border: 2px solid white;
   border-radius: 10px;
 }
 ._playback-wait-indicator-inner {
   width: 100px;
   height: 33px;
-  position: relative;
 }
 ._playback-wait-indicator-label {
   color: white;
@@ -98,7 +96,6 @@
     float: left;
     height: 26px;
     box-flex: 1;
-    width: 100px;
     border-right: solid 1px #595959;
 }
  
@@ -202,15 +199,6 @@
     display: block;
 }
  
-._slider ._head-container {
-    display: block;
-     
-}
-._controls ._volume-slider ._head-container {
-    left: -3px;
-    position: relative;
-}
- 
 ._controls ._button ._volume-slider {
     background-color: rgba(57, 57, 57, 0.6);
     border: solid 1px rgba(78, 78, 78, 0.4);
@@ -235,44 +223,56 @@
     border: solid 1px #414141;
     margin-left: 12px;
     margin-top: 5px;
+    margin-bottom: 5px;
     height: 100%;
     width: 6px;
     display: block;
-     
+    padding: 0px;
+    position: relative;
 }
  
-._controls ._button ._volume-slider ._min-fill {
+._controls ._button ._volume-slider ._gutter ._min-fill {
     background-color: #a9a9a9;
     border: none;
     display: block;
     position: absolute;
-    bottom: 8px;
-    height: 106px;
+    bottom: 0px;
     width: 5px;
     margin-bottom: 0px;
     margin-left: 1px;
+    margin-top: 1px;
+    z-index: 100000;
+}
+
+._controls ._volume-slider ._gutter ._head-container {
+    display: block;
+    height: 100%;
+    position: relative;
 }
  
-._controls ._button ._slider ._volume-head {
+._controls ._button ._slider ._gutter ._head-container ._volume-head {
     background-color: #2C2C2C;
     border: solid 1px #3F3F3F;
     cursor: pointer;
     height: 2px;
     top: 0px;
-    margin-left: 2px;
-    margin-bottom: 0px;
+    right: -4px !important;
+    margin: 0px;
+    margin-left: 2px; 
     position: absolute;
     width: 12px;
     z-index: 1000;
 }
  
 ._controls ._button ._menu {
+    background-color: yellow;
     display: none;
     bottom: 28px; /* 37px */
     right: 1px;
     position: absolute;
     margin: 0px;
     padding: 0px;
+    height: auto;
     width: 150px; /* menus currently require a width. this should be fixed. */
 }
  
@@ -282,6 +282,7 @@
 ._controls ._button ._menu ._menu-contents {
     background-color: #393939;
     border: solid 1px #4E4E4E;
+    height: 100%;
     width: 100%;
 }
  
