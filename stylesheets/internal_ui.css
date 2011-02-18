@@ -129,7 +129,8 @@
     border-radius: 0px;
     cursor: pointer;
     height: 8px;
-    top: -3px;
+    left: 0px;
+    top: -6px;
 }
  
 ._controls ._timeline ._max-label {
@@ -236,7 +237,7 @@
     border: none;
     display: block;
     position: absolute;
-    bottom: 0px;
+    top: -1px;
     width: 5px;
     margin-bottom: 0px;
     margin-left: 1px;
