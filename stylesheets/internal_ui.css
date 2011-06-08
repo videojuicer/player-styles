@@ -112,6 +112,11 @@
 ._slider ._fill-container {
     /*background-color: #303030;*/
 }
+
+._controls ._timeline ._load-indicator-bar {
+  height: 6px;
+  background: white;
+}
          
 ._controls ._timeline ._min-fill {
     background-color: #a9a9a9;
