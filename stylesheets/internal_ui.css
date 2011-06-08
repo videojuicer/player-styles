@@ -115,7 +115,12 @@
 
 ._controls ._timeline ._load-indicator-bar {
   height: 6px;
-  background: white;
+  width: 0px;
+  position: absolute; 
+  margin: 0; 
+  padding: 0; 
+  background-color: white; 
+  opacity: 0.2;
 }
          
 ._controls ._timeline ._min-fill {
@@ -133,7 +138,7 @@
     cursor: pointer;
     height: 8px;
     left: 0px;
-    top: -6px;
+    top: -12px;
 }
  
 ._controls ._timeline ._max-label {
