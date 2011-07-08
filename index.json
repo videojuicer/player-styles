@@ -1,5 +1,6 @@
 { "stylesheets": [
 	"stylesheets/master.css",
 	"stylesheets/internal_ui.css",
-	"stylesheets/assets.css"
+	"stylesheets/assets.css",
+	"stylesheets/developer_ui.css"
 ]}
