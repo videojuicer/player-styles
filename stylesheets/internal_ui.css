@@ -139,6 +139,7 @@
     height: 8px;
     left: 0px;
     top: -12px;
+    opacity: 0;
 }
  
 ._controls ._timeline ._max-label {
