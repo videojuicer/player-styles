@@ -246,7 +246,7 @@
     border: none;
     display: block;
     position: absolute;
-    top: -1px;
+    bottom: 0px;
     width: 5px;
     margin-bottom: 0px;
     margin-left: 1px;
