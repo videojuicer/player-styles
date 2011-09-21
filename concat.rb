@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # A short script to compose the styles from the index.json
 
 require 'rubygems'

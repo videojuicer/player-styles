@@ -275,7 +275,6 @@
 }
  
 ._controls ._button ._menu {
-    background-color: yellow;
     display: none;
     bottom: 28px; /* 37px */
     right: 1px;
@@ -284,15 +283,12 @@
     padding: 0px;
     height: auto;
     width: 150px; /* menus currently require a width. this should be fixed. */
+    z-index: 200;
 }
- 
-.show { display: block; }
-.hide { display: none; }
- 
+
 ._controls ._button ._menu ._menu-contents {
     background-color: #393939;
     border: solid 1px #4E4E4E;
-    height: 100%;
     width: 100%;
 }
  

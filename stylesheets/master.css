@@ -3,6 +3,9 @@
  * Here you find the base app styles, which we recommend you avoid tweaking.
  **************************************/
  
+.show { display: block !important; }
+.hide { display: none !important; }
+
 ._player {
     background-color: #000000;
     color: #FFFFFF;
