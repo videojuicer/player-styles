@@ -106,6 +106,7 @@
     background-color: #1F1F1F;
     border: none;
     height: 6px;
+    position: relative;
 }
  
 ._slider ._fill-container {
@@ -120,6 +121,7 @@
   padding: 0; 
   background-color: white; 
   opacity: 0.2;
+  left: 0px;
 }
          
 ._controls ._timeline ._min-fill {
