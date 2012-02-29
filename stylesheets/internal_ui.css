@@ -7,17 +7,16 @@
     border-bottom: solid 2px #1f1f1f;
     border-top: solid 1px #5c5c5c;
     z-index: 9001;
-    /* transition: opacity 1s ease-in-out; */
+    transition: opacity 1s ease-out;
+    opacity: 1;
 }
  
 ._player ._controls._userIdle,
 ._player ._controls._userEngaged {
-    display: block;
-    /*opacity: 1.0;*/
+    opacity: 1;
 }
 ._player ._controls._userIdle._playing._ready {
-    display: none;
-    /*opacity: 0;*/
+    opacity: 0;
 }
   
 /* Specific styles: the overlay button */

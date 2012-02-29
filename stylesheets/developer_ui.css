@@ -1,33 +1,27 @@
 ._developerUI._box {
-  background-color: rgba(000, 000, 000, 0.0);
-  height: 100%;
-  left: 0px;
-  position: fixed;
-  top: 0px;
+  background-color: rgba(100, 100, 100, 0.6);
+  height: auto;
+  margin: 0px auto;
   width: 100%;
 }
 
-._developerUI ._block {
-  background-color: rgba(000, 000, 000, 0.6);
-  border: solid 1px rgba(200, 200, 200, 0.4);
-  float: left;
-  height: auto;
-  margin: 5px;
-  position: relative;
-  padding: 2px;
-  width: 340px;
-}
-
-._developerUI ._block ._wrapper {
+._developerUI ._wrapper {
   background-color: rgba(000, 000, 000, 0.0);
   height: auto;
   padding: 0px;
-}
-
-._developerUI ._block ._wrapper ._text-field {
   float: left;
+  width: 165px;
 }
 
-._developerUI ._block ._wrapper ._label {
+._developerUI ._wrapper ._text-field {
+  
+}
+
+._developerUI ._wrapper ._bindingLabel {
+  font-weight: bold;
+  width: 160px;
+}
+
+._developerUI ._wrapper ._bindingValue {
   width: 160px;
 }
