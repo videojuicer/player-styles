@@ -168,10 +168,6 @@
 ._controls ._timeline._duration-unresolved ._slider-head {
   display: none;
 }
-._controls ._timeline._duration-unresolved ._min-label,
-._controls ._timeline._duration-unresolved ._max-label {
-  display: none;
-}
  
 ._controls ._timeline._hours-long ._min-label,
 ._controls ._timeline._hours-long ._max-label {
