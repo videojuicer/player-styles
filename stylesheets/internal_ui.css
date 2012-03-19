@@ -3,6 +3,8 @@
  * Here you find the styles for the play button, the timeline, the play head, the volume control and so on.
  **************************************/
   
+._root { background-color: rgba(0, 0, 0, 0) !important; }
+  
 ._controls {
     border-bottom: solid 2px #1f1f1f;
     border-top: solid 1px #5c5c5c;
