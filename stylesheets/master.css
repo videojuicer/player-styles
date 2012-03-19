@@ -6,6 +6,8 @@
 .show { display: block !important; }
 .hide { display: none !important; }
 
+._root { background-color: rgba(0, 0, 0, 0) !important; }
+
 ._player {
     background-color: #000000;
     color: #FFFFFF;
