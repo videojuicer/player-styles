@@ -9,19 +9,9 @@
   background-color: rgba(000, 000, 000, 0.0);
   height: auto;
   padding: 0px;
-  float: left;
-  width: 165px;
-}
-
-._developerUI ._wrapper ._text-field {
-  
 }
 
 ._developerUI ._wrapper ._bindingLabel {
   font-weight: bold;
-  width: 160px;
-}
-
-._developerUI ._wrapper ._bindingValue {
   width: 160px;
 }
