@@ -7,6 +7,7 @@
 .hide { display: none !important; }
 
 ._root { background-color: rgba(0, 0, 0, 0) !important; }
+._domain { background-color: rgba(0, 0, 0, 0) !important; width: 100%; height: 100%; }
 
 ._player {
     background-color: #000000;
