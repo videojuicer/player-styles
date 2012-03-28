@@ -126,6 +126,7 @@
   background-color: white; 
   opacity: 0.2;
   left: 0px;
+  max-width: 100%;
 }
          
 ._controls ._timeline ._min-fill {
