@@ -110,6 +110,8 @@
     background-color: #1F1F1F;
     border: none;
     height: 6px;
+    padding-left: 0px;
+    padding-right: 2px;
     position: relative;
 }
  
@@ -118,15 +120,15 @@
 }
 
 ._controls ._timeline ._load-indicator-bar {
-  height: 6px;
+  height: 3px;
   width: 0px;
   position: absolute; 
-  margin: 0; 
   padding: 0; 
   background-color: white; 
   opacity: 0.2;
-  left: 0px;
+  left: 1px;
   max-width: 100%;
+  top: 1px;
 }
          
 ._controls ._timeline ._min-fill {
@@ -146,6 +148,7 @@
     left: 0px;
     top: -12px;
     opacity: 0;
+    max-width: 100%;
 }
  
 ._controls ._timeline ._max-label {
