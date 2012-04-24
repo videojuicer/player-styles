@@ -91,11 +91,15 @@
 ._controls ._fullscreen-toggle {
     width: 32px !important;
 }
+
+._controls ._fullscreen-toggle ._icon {
+    margin-top: 7px;
+}
  
 /* Specific styles: Timeline slider */
 ._controls ._timeline {
     float: left;
-    height: 26px;
+    height: 32px;
     box-flex: 1;
     border-right: solid 1px #595959;
 }
@@ -105,8 +109,8 @@
     box-flex: 1;
     cursor: pointer;
     margin-top: 11px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
     background-color: #1F1F1F;
     border: none;
     height: 6px;
@@ -155,10 +159,11 @@
     border: none;
     font-family: Urban_8pt_st;
     font-size: 8px;
-    width: 34px;
-    margin-right: 10px;
+    width: 32px;
+    margin-right: 7px;
     margin-top: 7px;
     color: #999999;
+    text-align: right;
     box-flex: 0;
 }
  
@@ -166,10 +171,11 @@
     border: none;
     font-family: Urban_8pt_st;
     font-size: 8px;
-    width: 34px;
-    margin-left: 10px;
+    width: 32px;
+    margin-left: 9px;
     margin-top: 7px;
     color: #999999;
+    text-align: left;
     box-flex: 0;
 }
  
