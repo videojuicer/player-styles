@@ -13,12 +13,12 @@
     opacity: 1;
 }
  
-._player ._controls._userIdle,
-._player ._controls._userEngaged {
+._controls._userIdle,
+._controls._userEngaged {
     opacity: 1;
     display: block;
 }
-._player ._controls._userIdle._playing._ready {
+._controls._userIdle._playing._ready {
     opacity: 0;
     display: none;
 }
