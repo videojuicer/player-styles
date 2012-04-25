@@ -13,17 +13,18 @@
     opacity: 1;
 }
 
-._controls:hover,
-._controls._userIdle,
+/* ._controls._userIdle, */
 ._controls._userEngaged {
     opacity: 1;
     display: block;
 }
 ._controls._userIdle._playing._ready {
-    opacity: 0;
-    display: none;
+    opacity: 0.0;
 }
-  
+._controls:hover {
+    opacity: 1.0 !important;
+}
+
 /* Specific styles: the overlay button */
 ._button._playback-toggle-overlay {
     background-color: rgba(50, 50, 50, 0.2);
