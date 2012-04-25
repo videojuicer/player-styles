@@ -12,7 +12,8 @@
     /* transition: opacity 1s ease-out; */
     opacity: 1;
 }
- 
+
+._controls:hover,
 ._controls._userIdle,
 ._controls._userEngaged {
     opacity: 1;
