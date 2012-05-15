@@ -71,6 +71,21 @@
   text-align: center;
   margin-top: 7px;
 }
+
+._playback-ticker-indicator {
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+}
+
+._playback-ticker-indicator-animation {
+  padding: 10px;
+  height: 35px;
+  width: 35px;
+}
  
 /* Specific styles: Control bar buttons */
 ._controls > ._button {

@@ -161,3 +161,9 @@
   left: 0;
   background: green;
 }*/
+
+._img {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
