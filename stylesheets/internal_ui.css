@@ -189,7 +189,7 @@
     border: none;
     font-family: Urban_8pt_st;
     font-size: 8px;
-    width: 32px;
+    width: 34px;
     margin-left: 10px;
     margin-top: 7px;
     margin-right: -1px;
@@ -204,7 +204,7 @@
  
 ._controls ._timeline._hours-long ._min-label,
 ._controls ._timeline._hours-long ._max-label {
-    width: 37px;
+    width: 48px;
 }
  
 /* Specific styles: Volume slider */
