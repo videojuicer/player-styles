@@ -2,7 +2,7 @@
  * Section 1: App styles
  * Here you find the base app styles, which we recommend you avoid tweaking.
  **************************************/
- 
+
 .show { display: block !important; }
 .hide { display: none !important; }
 
@@ -58,7 +58,7 @@
  * Section 2: Generic UI types
  * Here you find basic styles for Buttons, Sliders, SliderHeads, Menus and so on
  **************************************/
- 
+
 ._controls {
     background-color: #323232;
     bottom: 0px;
@@ -67,7 +67,7 @@
     position: absolute;
     width: 100%;
 }
- 
+
 ._box {
     background-color: #323232;
     height: 30px;
@@ -90,14 +90,14 @@
 }
 
 ._slider {
-    
+
 }
 
 ._slider._horizontal {
     height: 10px;
     width: 100px;
 }
- 
+
 ._slider._vertical ._gutter {
     height: 100px;
     width: 10px;
@@ -107,7 +107,7 @@
     background-color: #FFFFFF;
 }
 
-._slider ._slider-head {
+._controls ._timeline._slider ._slider-head {
     background-color: #FFFFFF;
     border: solid 1px #000000;
     position: relative;
